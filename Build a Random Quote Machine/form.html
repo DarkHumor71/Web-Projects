@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container d-flex align-items-center justify-content-center">
+      <div id="quote-box">
+        <div class="row">
+          <div id="text"></div>
+          <div ><p id="author"></p></div>
+          <div>
+            <a
+              class="button"
+              id="tweet-quote"
+              title="Tweet this quote!"
+              target="_top"
+              href="https://twitter.com/intent/tweet?hashtags=quotes&amp;related=freecodecamp&amp;text=%22Either%20you%20run%20the%20day%2C%20or%20the%20day%20runs%20you.%22%20Jim%20Rohn"
+            >
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a
+              class="button"
+              id="tumblr-quote"
+              title="Post this quote on tumblr!"
+              target="_blank"
+              href="https://www.tumblr.com/widgets/share/tool?posttype=quote&amp;tags=quotes,freecodecamp&amp;caption=Jim%20Rohn&amp;content=Either%20you%20run%20the%20day%2C%20or%20the%20day%20runs%20you.&amp;canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&amp;shareSource=tumblr_share_button"
+            >
+              <i class="fa fa-tumblr"></i>
+            </a>
+            <button class="button" id="new-quote">New quote</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="node.js"></script>
+</html>

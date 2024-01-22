@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+}
+.container {
+  height: 100%;
+}
+#new-quote {
+  float: right;
+}
+#quote-box {
+  width: 50%;
+  padding: 10;
+  display: flex;
+  flex-direction: column;
+  background-color: #b350af;
+}
+#author {
+  float: right;
+  color: #2df534;
+}
+#text {color: #4CAF50;}
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>
+        Survey Form
+    </title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">this is a description for the survey</p>
+
+        </header>
+        <form action="" id="survey-form">
+            <label for="name" id="name-label">name :</label>
+            <input type="text" id="name" placeholder="name" required>
+            <br />
+            <label for="email" id="email-label">email :</label>
+            <input type="email" id="email" required placeholder="123@mail.com">
+            <br />
+            <label for="number" id="number-label">number :</label>
+            <input type="number" id="number" max="5000" min="1" placeholder="1">
+            <br />
+            <label for="dropdown">What is your standing?</label>
+            <br />
+            <select id="dropdown">
+                <option value="Student">Student</option>
+                <option value="Full time Job">Full time job</option>
+                <option value="Jobless">Jobless</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+            </select>
+            <br />
+            What is your gender?
+            <br />
+            <input type="radio" name="grp" value="male" id="male">
+            <label for="male">male</label>
+
+            <input type="radio" name="grp" value="female" id="female">
+
+            <label for="female">female</label>
+            <br />
+            What are your hobbies?
+            <br />
+            <input type="checkbox" value="football" name="football">
+
+            <label for="football">football</label>
+
+            <br />
+            <input type="checkbox" value="basketball" name="basketball">
+            <label for="basketball">basketball</label>
+            <br />
+            <input type="checkbox" value="swimming" name="swimming">
+            <label for="swimming">swimming</label>
+            <br />
+            <input type="checkbox" value="reading" name="reading">
+            <label for="reading">reading</label>
+            <br />
+            <input type="checkbox" value="gaming" name="gaming">
+            <label for="gaming">gaming</label>
+            <br />
+            <input type="checkbox" value="Hiking" name=" Hiking">
+            <label for="Hiking"> Hiking</label>
+            <br />
+            <input type="checkbox" value="running" name="running">
+            <label for="running">running</label>
+            <br />
+            <input type="checkbox" value="playing" name="playing">
+            <label for="playing">playing</label>
+            <br />
+            <input type="checkbox" value="travelling" name="travelling">
+            <label for="travelling">travelling</label><br />
+            <textarea placeholder="comments"></textarea>
+            <br />
+            <button type="submit" id="submit">submit</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
